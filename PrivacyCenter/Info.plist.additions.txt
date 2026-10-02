@@ -1,0 +1,6 @@
+Ajoute ces clés dans Info.plist :
+
+NSPhotoLibraryUsageDescription = "Privacy Center utilise tes photos uniquement lorsque tu lui accordes l'accès pour les fonctions de confidentialité."
+NSFaceIDUsageDescription = "Face ID sert à protéger l'accès au coffre-fort."
+
+Pour une vraie app distribuée, utilise un fichier entitlements avec les capacités nécessaires.
